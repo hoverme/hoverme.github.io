@@ -17,7 +17,7 @@ body{
      padding: 0;
      z-index: -10;
 }
-#cursor{
+.cursor{
      position: absolute;
      width:  2.5rem;
      height: 2.5rem;
@@ -27,6 +27,9 @@ body{
      box-shadow: 0 0 3px 1px black,
                  0 0px 2rem 0px blue;
      cursor: none;
+}
+.transition-cursor{
+     transition: all 1s ease;
 }
 .welcome{
      width: 100vw;
