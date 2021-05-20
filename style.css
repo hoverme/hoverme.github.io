@@ -17,7 +17,7 @@ body{
      padding: 0;
      z-index: -10;
 }
-#welcomecursor{
+#cursor{
      position: absolute;
      width:  2.5rem;
      height: 2.5rem;
@@ -54,16 +54,7 @@ footer{
      margin: 0%;
      padding:0;
 }
-.cursor{
-          width:  20vw;
-          height: 20vw;
-          /* border: 5px solid white; */
-          border-radius: 50%;
-          position: absolute;
-          background:linear-gradient(-135deg, blue, tomato);
-          z-index: -10;
-          /* box-shadow: 0 0 0vw 1vw rgb(101, 255, 242); */
-}
+
 .DpHd, .CiHd, .schd{
           text-align: center;
           /* margin-bottom: 10vw; */
